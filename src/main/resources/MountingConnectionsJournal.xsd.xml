@@ -1,0 +1,150 @@
+<mountingConnectionsJournal>
+  <uuid>dc1584d4-1d20-4777-bc30-2b2ef696c35d</uuid>
+  <version>1</version>
+  <number>1Z0-808</number>
+  <orgExecutorOfWork>ООО РЕГЛАМЕНТ СТРОЙ</orgExecutorOfWork>
+  <permanentObjectInfo>
+    <permanentObjectName>Здание торговли</permanentObjectName>
+    <permanentObjectAddress>
+      <buildingAddress>
+        <federationSubject>РФ</federationSubject>
+        <localityName>КО</localityName>
+        <сounty>Кострома</сounty>
+        <territory>Костроймской район</territory>
+        <street>Ленина 69</street>
+        <building>д45</building>
+      </buildingAddress>
+    </permanentObjectAddress>
+  </permanentObjectInfo>
+  <journalInfoDate>
+    <beginDate>2014-06-09</beginDate>
+    <endDate>2014-11-07</endDate>
+  </journalInfoDate>
+  <responsiblePerson>
+    <lastName>Иванов</lastName>
+    <initials>И.И.</initials>
+    <sign>Y3Vt</sign>
+    <position>Администратор</position>
+  </responsiblePerson>
+  <orgDeveloperOfProjDoc>ООО РЕЖИМСТРОЙ</orgDeveloperOfProjDoc>
+  <projCodeKZH>ШИФР</projCodeKZH>
+  <infoAboutBolts>12см</infoAboutBolts>
+  <orgDeveloperOfACProtectionProject>ИП СТРОЙСТРОЙ</orgDeveloperOfACProtectionProject>
+  <projCodePPR>ППРКОДЕ</projCodePPR>
+  <orgProducerOfConstructions>ООО ИЗГОТОВЛЯЙ</orgProducerOfConstructions>
+  <orderCode>1zz-09</orderCode>
+  <orgCustomer>
+    <customerName>
+      <organizationForm>ООО</organizationForm>
+      <name>РЕЖИСТРОЙ</name>
+    </customerName>
+    <manager>
+      <lastName>Иванов</lastName>
+      <initials>И.И.</initials>
+      <sign>c29ub3Jhcw==</sign>
+      <position>Администратор</position>
+    </manager>
+    <technicalControl>
+      <lastName>Гуглев</lastName>
+      <initials>Г.Г.</initials>
+      <sign>YWVvbGlhbQ==</sign>
+      <position>Менеджер</position>
+    </technicalControl>
+  </orgCustomer>
+  <installers>
+    <!--1 or more repetitions:-->
+    <installer>
+      <fio>
+        <firstName>Иванов</firstName>
+        <lastName>Иван</lastName>
+        <middleName>Иванович</middleName>
+      </fio>
+      <category>Мастер рукопожатий</category>
+      <number>123</number>
+      <categoryCertificate>
+        <date>2014-06-09+04:00</date>
+        <issuer>ООО РУКОПОЖАТИЕ</issuer>
+      </categoryCertificate>
+      <note>Инвалид</note>
+    </installer>
+  </installers>
+  <workRecords>
+    <!--1 or more repetitions:-->
+    <workRecord>
+      <workInfo>
+        <workCompletionDate>2008-11-15</workCompletionDate>
+        <shift>первая</shift>
+        <carcasNumber>123456</carcasNumber>
+        <productName>БОЛТ</productName>
+        <mark>German Man</mark>
+        <projectNumber>123poe</projectNumber>
+        <schemaInfo>1-034ямха Что то</schemaInfo>
+        <installingBoltsInfo>
+          <numberOfBolts>200</numberOfBolts>
+          <certificateNumber>1235647</certificateNumber>
+          <surfaceTreatmentMethod>Новейший</surfaceTreatmentMethod>
+          <tighteningTorque>1000.00</tighteningTorque>
+        </installingBoltsInfo>
+        <resultOfInspection>
+          <surfaceTreatmentQuality>Идеальное</surfaceTreatmentQuality>
+          <numberOfBoltsTested>200</numberOfBoltsTested>
+          <resultOfTorqueInspection>1000.00</resultOfTorqueInspection>
+        </resultOfInspection>
+      </workInfo>
+      <signOfForeman>123е</signOfForeman>
+      <signOfResponsible>
+        <lastName>Иванов</lastName>
+        <initials>И.И</initials>
+        <sign>Y2lyY3Vt</sign>
+      </signOfResponsible>
+      <signOfRepresentativeOfCustomer>
+        <lastName>Иванов</lastName>
+        <initials>И.И</initials>
+        <sign>Y2lyY3Vt</sign>
+      </signOfRepresentativeOfCustomer>
+    </workRecord>
+    <workRecord>
+      <workInfo>
+        <workCompletionDate>2008-11-15</workCompletionDate>
+        <shift>первая</shift>
+        <carcasNumber>123456</carcasNumber>
+        <productName>VT{</productName>
+        <mark>Russion</mark>
+        <projectNumber>123poe</projectNumber>
+        <schemaInfo>1-034ямха Что то</schemaInfo>
+        <installingBoltsInfo>
+          <numberOfBolts>200</numberOfBolts>
+          <certificateNumber>1235647</certificateNumber>
+          <surfaceTreatmentMethod>Новейший</surfaceTreatmentMethod>
+          <tighteningTorque>1000.00</tighteningTorque>
+        </installingBoltsInfo>
+        <resultOfInspection>
+          <surfaceTreatmentQuality>Идеальное</surfaceTreatmentQuality>
+          <numberOfBoltsTested>200</numberOfBoltsTested>
+          <resultOfTorqueInspection>1000.00</resultOfTorqueInspection>
+        </resultOfInspection>
+      </workInfo>
+      <signOfForeman>123е</signOfForeman>
+      <signOfResponsible>
+        <lastName>Иванов</lastName>
+        <initials>И.И</initials>
+        <sign>Y2lyY3Vt</sign>
+      </signOfResponsible>
+      <signOfRepresentativeOfCustomer>
+        <lastName>Иванов</lastName>
+        <initials>И.И</initials>
+        <sign>Y2lyY3Vt</sign>
+      </signOfRepresentativeOfCustomer>
+    </workRecord>
+  </workRecords>
+        <signOfResponsible>
+        <lastName>Иванов</lastName>
+        <initials>И.И</initials>
+        <sign>Y2lyY3Vt</sign>
+      </signOfResponsible>
+      <signOfRepresentativeOfCustomer>
+        <lastName>Иванов</lastName>
+        <initials>И.И</initials>
+        <sign>Y2lyY3Vt</sign>
+      </signOfRepresentativeOfCustomer>
+</mountingConnectionsJournal>

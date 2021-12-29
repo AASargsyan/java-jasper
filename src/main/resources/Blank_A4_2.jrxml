@@ -1,0 +1,445 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.18.1.final using JasperReports Library version 6.18.1-9d75d1969e774d4f179fb3be8401e98a0e6d1611  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="Blank_A4_2" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="99675ffd-34d0-4091-b13a-11da0f6f8407">
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="XmlSample.xml"/>
+	<property name="com.jaspersoft.studio.data.sql.tables" value=""/>
+	<style name="Table_TH" mode="Opaque" backcolor="#F0F8FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Table_CH" mode="Opaque" backcolor="#BFE1FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Table_TD" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<subDataset name="TableDataSource" uuid="e8c17d68-00cf-4876-adb4-606648a9e33b">
+		<property name="com.jaspersoft.studio.data.defaultdataadapter" value="XmlSample.xml"/>
+		<queryString language="XPath">
+			<![CDATA[/mountingConnectionsJournal/workRecords/workRecord/workInfo]]>
+		</queryString>
+		<field name="workCompletionDate" class="java.sql.Date">
+			<property name="net.sf.jasperreports.xpath.field.expression" value="workCompletionDate"/>
+			<fieldDescription><![CDATA[workCompletionDate]]></fieldDescription>
+		</field>
+		<field name="carcasNumber" class="java.lang.Integer">
+			<property name="net.sf.jasperreports.xpath.field.expression" value="carcasNumber"/>
+			<fieldDescription><![CDATA[carcasNumber]]></fieldDescription>
+		</field>
+		<field name="shift" class="java.lang.String">
+			<property name="net.sf.jasperreports.xpath.field.expression" value="shift"/>
+			<fieldDescription><![CDATA[shift]]></fieldDescription>
+		</field>
+		<field name="productName" class="java.lang.String">
+			<property name="net.sf.jasperreports.xpath.field.expression" value="productName"/>
+			<fieldDescription><![CDATA[productName]]></fieldDescription>
+		</field>
+		<field name="mark" class="java.lang.String">
+			<property name="net.sf.jasperreports.xpath.field.expression" value="mark"/>
+			<fieldDescription><![CDATA[mark]]></fieldDescription>
+		</field>
+		<field name="projectNumber" class="java.lang.String">
+			<property name="net.sf.jasperreports.xpath.field.expression" value="projectNumber"/>
+			<fieldDescription><![CDATA[projectNumber]]></fieldDescription>
+		</field>
+		<field name="schemaInfo" class="java.lang.String">
+			<property name="net.sf.jasperreports.xpath.field.expression" value="schemaInfo"/>
+			<fieldDescription><![CDATA[schemaInfo]]></fieldDescription>
+		</field>
+		<field name="numberOfBolts" class="java.lang.String">
+			<property name="net.sf.jasperreports.xpath.field.expression" value="installingBoltsInfo/numberOfBolts"/>
+			<fieldDescription><![CDATA[installingBoltsInfo/numberOfBolts]]></fieldDescription>
+		</field>
+		<field name="certificateNumber" class="java.lang.String">
+			<property name="net.sf.jasperreports.xpath.field.expression" value="installingBoltsInfo/certificateNumber"/>
+			<fieldDescription><![CDATA[installingBoltsInfo/certificateNumber]]></fieldDescription>
+		</field>
+		<field name="surfaceTreatmentMethod" class="java.lang.String">
+			<property name="net.sf.jasperreports.xpath.field.expression" value="installingBoltsInfo/surfaceTreatmentMethod"/>
+			<fieldDescription><![CDATA[installingBoltsInfo/surfaceTreatmentMethod]]></fieldDescription>
+		</field>
+		<field name="tighteningTorque" class="java.lang.String">
+			<property name="net.sf.jasperreports.xpath.field.expression" value="installingBoltsInfo/tighteningTorque"/>
+			<fieldDescription><![CDATA[installingBoltsInfo/tighteningTorque]]></fieldDescription>
+		</field>
+		<field name="surfaceTreatmentQuality" class="java.lang.String">
+			<property name="net.sf.jasperreports.xpath.field.expression" value="resultOfInspection/surfaceTreatmentQuality"/>
+			<fieldDescription><![CDATA[resultOfInspection/surfaceTreatmentQuality]]></fieldDescription>
+		</field>
+		<field name="numberOfBoltsTested" class="java.lang.String">
+			<property name="net.sf.jasperreports.xpath.field.expression" value="resultOfInspection/numberOfBoltsTested"/>
+			<fieldDescription><![CDATA[resultOfInspection/numberOfBoltsTested]]></fieldDescription>
+		</field>
+		<field name="resultOfTorqueInspection" class="java.lang.String">
+			<property name="net.sf.jasperreports.xpath.field.expression" value="resultOfInspection/resultOfTorqueInspection"/>
+			<fieldDescription><![CDATA[resultOfInspection/resultOfTorqueInspection]]></fieldDescription>
+		</field>
+	</subDataset>
+	<queryString language="XPath">
+		<![CDATA[/]]>
+	</queryString>
+	<field name="lastName" class="java.lang.String">
+		<property name="net.sf.jasperreports.xpath.field.expression" value="/mountingConnectionsJournal/signOfResponsible/lastName"/>
+		<fieldDescription><![CDATA[/mountingConnectionsJournal/signOfResponsible/lastName]]></fieldDescription>
+	</field>
+	<field name="initials" class="java.lang.String">
+		<property name="net.sf.jasperreports.xpath.field.expression" value="/mountingConnectionsJournal/signOfResponsible/initials"/>
+		<fieldDescription><![CDATA[/mountingConnectionsJournal/signOfResponsible/initials]]></fieldDescription>
+	</field>
+	<field name="lastName_1" class="java.lang.String">
+		<property name="net.sf.jasperreports.xpath.field.expression" value="/mountingConnectionsJournal/signOfRepresentativeOfCustomer/lastName"/>
+		<fieldDescription><![CDATA[/mountingConnectionsJournal/signOfRepresentativeOfCustomer/lastName]]></fieldDescription>
+	</field>
+	<field name="initials_1" class="java.lang.String">
+		<property name="net.sf.jasperreports.xpath.field.expression" value="/mountingConnectionsJournal/signOfRepresentativeOfCustomer/initials"/>
+		<fieldDescription><![CDATA[/mountingConnectionsJournal/signOfRepresentativeOfCustomer/initials]]></fieldDescription>
+	</field>
+	<title>
+		<band height="99">
+			<componentElement>
+				<reportElement x="2" y="-10" width="550" height="90" uuid="b6b8cb93-17df-4ece-b89c-49b8a109a107">
+					<property name="com.jaspersoft.studio.layout" value="com.jaspersoft.studio.editor.layout.VerticalRowLayout"/>
+					<property name="com.jaspersoft.studio.table.style.table_header" value="Table_TH"/>
+					<property name="com.jaspersoft.studio.table.style.column_header" value="Table_CH"/>
+					<property name="com.jaspersoft.studio.table.style.detail" value="Table_TD"/>
+				</reportElement>
+				<jr:table xmlns:jr="http://jasperreports.sourceforge.net/jasperreports/components" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports/components http://jasperreports.sourceforge.net/xsd/components.xsd">
+					<datasetRun subDataset="TableDataSource" uuid="7daed95a-5fff-47de-ad1b-086e548cb40c">
+						<dataSourceExpression><![CDATA[((net.sf.jasperreports.engine.data.JRXmlDataSource)$P{REPORT_DATA_SOURCE}).subDataSource("/mountingConnectionsJournal/workRecords/workRecord/workInfo")]]></dataSourceExpression>
+					</datasetRun>
+					<jr:column width="40" uuid="2203dd21-d6dc-4348-bc03-70992edda7c9">
+						<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column1"/>
+						<jr:columnHeader style="Table_CH" height="60" rowSpan="2">
+							<staticText>
+								<reportElement x="0" y="0" width="40" height="60" uuid="18e7b1be-5c0b-4a21-8310-fe5bc3863d9e"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font fontName="DejaVu Sans" size="8"/>
+								</textElement>
+								<text><![CDATA[Дата
+Смена]]></text>
+							</staticText>
+						</jr:columnHeader>
+						<jr:detailCell style="Table_TD" height="30">
+							<textField>
+								<reportElement x="0" y="0" width="40" height="30" uuid="c0acddfe-a66e-4dbe-b573-fcfdca3bd425"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font fontName="DejaVu Sans" size="8"/>
+								</textElement>
+								<textFieldExpression><![CDATA[$F{workCompletionDate}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="50" uuid="12b4aa78-02c2-4476-bfec-875c24ba78e9">
+						<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column2"/>
+						<jr:columnHeader style="Table_CH" height="60" rowSpan="2">
+							<staticText>
+								<reportElement x="0" y="0" width="50" height="60" uuid="e9b46145-8e2f-4f85-897d-48561a05713b"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font fontName="DejaVu Sans" size="8"/>
+								</textElement>
+								<text><![CDATA[Порядковый
+номер
+каркаса]]></text>
+							</staticText>
+						</jr:columnHeader>
+						<jr:detailCell style="Table_TD" height="30">
+							<textField>
+								<reportElement x="0" y="0" width="50" height="30" uuid="b36013c6-f0cb-424d-88bf-2c1d0a9d0565"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font fontName="DejaVu Sans" size="8"/>
+								</textElement>
+								<textFieldExpression><![CDATA[$F{carcasNumber}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="60" uuid="f9a0f477-8b30-43ad-ace1-c3870007d766">
+						<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column3"/>
+						<jr:columnHeader style="Table_CH" height="60" rowSpan="2">
+							<staticText>
+								<reportElement x="0" y="0" width="60" height="60" uuid="ae9c9aa5-cf40-47fc-b0e3-e178df5791fa"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font fontName="DejaVu Sans" size="8"/>
+								</textElement>
+								<text><![CDATA[Наименование
+изделия]]></text>
+							</staticText>
+						</jr:columnHeader>
+						<jr:detailCell style="Table_TD" height="30">
+							<textField>
+								<reportElement x="0" y="0" width="60" height="30" uuid="c610e742-c8a6-4821-b8b4-ce7aca53ebb8"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font fontName="DejaVu Sans" size="8"/>
+								</textElement>
+								<textFieldExpression><![CDATA[$F{productName}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="50" uuid="c6c055fc-91d7-4000-b61d-9a9dd3437a42">
+						<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column4"/>
+						<jr:columnHeader style="Table_CH" height="60" rowSpan="2">
+							<staticText>
+								<reportElement x="0" y="0" width="50" height="60" uuid="72b0cb39-7a72-463e-8dbd-f1f0031759eb"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font fontName="DejaVu Sans" size="8"/>
+								</textElement>
+								<text><![CDATA[Марка
+изделия]]></text>
+							</staticText>
+						</jr:columnHeader>
+						<jr:detailCell style="Table_TD" height="30">
+							<textField>
+								<reportElement x="0" y="0" width="50" height="30" uuid="5f148336-d42e-499d-90b8-76859fe60b96"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font fontName="DejaVu Sans" size="8"/>
+								</textElement>
+								<textFieldExpression><![CDATA[$F{mark}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="60" uuid="e3928ac1-f29e-49fb-84cd-409c7ded11f4">
+						<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column5"/>
+						<jr:columnHeader style="Table_CH" height="60" rowSpan="2">
+							<staticText>
+								<reportElement x="0" y="0" width="60" height="60" uuid="1e46e7ac-9472-4170-984f-7e2b0312b34b"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font fontName="DejaVu Sans" size="8"/>
+								</textElement>
+								<text><![CDATA[№ проекта,
+№ рабочихчертежей]]></text>
+							</staticText>
+						</jr:columnHeader>
+						<jr:detailCell style="Table_TD" height="30">
+							<textField>
+								<reportElement x="0" y="0" width="60" height="30" uuid="cc611aaa-0af3-4e32-9786-d29bc04e1eea"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font fontName="DejaVu Sans" size="8"/>
+								</textElement>
+								<textFieldExpression><![CDATA[$F{projectNumber}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:columnGroup width="290" uuid="254c29d0-e9d4-4d90-b915-e12c0e4b98de">
+						<property name="com.jaspersoft.studio.components.table.model.column.name" value="Columns [5]"/>
+						<jr:columnHeader style="Table_CH" height="30" rowSpan="1">
+							<staticText>
+								<reportElement x="0" y="0" width="290" height="30" uuid="5b2590aa-9c4b-4636-8626-46eed6d46860"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font fontName="DejaVu Sans"/>
+								</textElement>
+								<text><![CDATA[Арматурная сталь
+]]></text>
+							</staticText>
+						</jr:columnHeader>
+						<jr:column width="63" uuid="1ade5931-944e-4b1d-a468-e0220d2d15f8">
+							<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column6"/>
+							<jr:columnHeader style="Table_CH" height="30" rowSpan="1">
+								<staticText>
+									<reportElement x="0" y="0" width="63" height="30" uuid="368a1834-286d-4d08-8cd0-b96e164d3ee6"/>
+									<textElement textAlignment="Center" verticalAlignment="Middle">
+										<font fontName="DejaVu Sans" size="8"/>
+									</textElement>
+									<text><![CDATA[№ партии 
+поступления]]></text>
+								</staticText>
+							</jr:columnHeader>
+							<jr:detailCell style="Table_TD" height="30">
+								<textField>
+									<reportElement x="0" y="0" width="63" height="30" uuid="9f5abc5b-e8df-420b-a290-71d44d858684"/>
+									<textElement textAlignment="Center" verticalAlignment="Middle">
+										<font fontName="DejaVu Sans" size="8"/>
+									</textElement>
+									<textFieldExpression><![CDATA[$F{schemaInfo}]]></textFieldExpression>
+								</textField>
+							</jr:detailCell>
+						</jr:column>
+						<jr:column width="57" uuid="efd2e3da-cc80-48e1-8e39-e3148b83d9d7">
+							<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column7"/>
+							<jr:columnHeader style="Table_CH" height="30" rowSpan="1">
+								<staticText>
+									<reportElement x="0" y="0" width="57" height="30" uuid="0c2c59c4-00a6-4c96-861f-199c49132f9d"/>
+									<textElement textAlignment="Center" verticalAlignment="Middle">
+										<font fontName="DejaVu Sans" size="8"/>
+									</textElement>
+									<text><![CDATA[№ сертификата]]></text>
+								</staticText>
+							</jr:columnHeader>
+							<jr:detailCell style="Table_TD" height="30">
+								<textField>
+									<reportElement x="0" y="0" width="57" height="30" uuid="d17fbfcb-1b13-430b-aeb9-549ea445e3a6"/>
+									<textElement textAlignment="Center" verticalAlignment="Middle">
+										<font fontName="DejaVu Sans" size="8"/>
+									</textElement>
+									<textFieldExpression><![CDATA[$F{certificateNumber}]]></textFieldExpression>
+								</textField>
+							</jr:detailCell>
+						</jr:column>
+						<jr:column width="55" uuid="20a17ee3-c71c-4d59-b8ff-7465272605ce">
+							<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column8"/>
+							<jr:columnHeader style="Table_CH" height="30" rowSpan="1">
+								<staticText>
+									<reportElement x="0" y="0" width="55" height="30" uuid="1d6a8277-56c0-4cac-8305-8eb80fa534ea"/>
+									<textElement textAlignment="Center" verticalAlignment="Middle">
+										<font fontName="DejaVu Sans" size="8"/>
+									</textElement>
+									<text><![CDATA[Класс
+арматуры]]></text>
+								</staticText>
+							</jr:columnHeader>
+							<jr:detailCell style="Table_TD" height="30">
+								<textField>
+									<reportElement x="0" y="0" width="55" height="30" uuid="dca6aa95-481e-495f-9055-cd01c38e6932"/>
+									<textElement textAlignment="Center" verticalAlignment="Middle">
+										<font fontName="DejaVu Sans" size="8"/>
+									</textElement>
+									<textFieldExpression><![CDATA[$F{surfaceTreatmentQuality}]]></textFieldExpression>
+								</textField>
+							</jr:detailCell>
+						</jr:column>
+						<jr:column width="52" uuid="1e8a1a27-d6d4-47f4-9869-9c49fef9bc79">
+							<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column9"/>
+							<jr:columnHeader style="Table_CH" height="30" rowSpan="1">
+								<staticText>
+									<reportElement x="0" y="0" width="52" height="30" uuid="591e24af-9032-460a-9ca3-0bd0ad1b4d33"/>
+									<textElement textAlignment="Center" verticalAlignment="Middle">
+										<font fontName="DejaVu Sans" size="8"/>
+									</textElement>
+									<text><![CDATA[Вид и 
+марка 
+стали 
+ГОСТ]]></text>
+								</staticText>
+							</jr:columnHeader>
+							<jr:detailCell style="Table_TD" height="30">
+								<textField>
+									<reportElement x="0" y="0" width="52" height="30" uuid="42a956ef-51b6-45ce-a7cf-35bc9ac66d9a"/>
+									<textElement textAlignment="Center" verticalAlignment="Middle">
+										<font fontName="DejaVu Sans" size="8"/>
+									</textElement>
+									<textFieldExpression><![CDATA[$F{numberOfBoltsTested}]]></textFieldExpression>
+								</textField>
+							</jr:detailCell>
+						</jr:column>
+						<jr:column width="63" uuid="362f216a-d172-46fb-b95f-709a25900e5b">
+							<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column10"/>
+							<jr:columnHeader style="Table_CH" height="30" rowSpan="1">
+								<staticText>
+									<reportElement x="0" y="0" width="63" height="30" uuid="0d469716-f6f4-409c-9821-c80c3aaaffaa"/>
+									<textElement textAlignment="Center" verticalAlignment="Middle">
+										<font fontName="DejaVu Sans" size="8"/>
+									</textElement>
+									<text><![CDATA[Дата и 
+№ испытания]]></text>
+								</staticText>
+							</jr:columnHeader>
+							<jr:detailCell style="Table_TD" height="30">
+								<textField>
+									<reportElement x="0" y="0" width="63" height="30" uuid="ff2ca08b-e774-4693-83a7-1ff9ddc38cbd"/>
+									<textElement textAlignment="Center" verticalAlignment="Middle">
+										<font fontName="DejaVu Sans" size="8"/>
+									</textElement>
+									<textFieldExpression><![CDATA[$F{resultOfTorqueInspection}]]></textFieldExpression>
+								</textField>
+							</jr:detailCell>
+						</jr:column>
+					</jr:columnGroup>
+				</jr:table>
+			</componentElement>
+		</band>
+	</title>
+	<detail>
+		<band height="2"/>
+	</detail>
+	<columnFooter>
+		<band height="248">
+			<staticText>
+				<reportElement x="10" y="10" width="100" height="20" uuid="441e6daa-f1fd-4554-91b4-622ab5a7664b"/>
+				<textElement verticalAlignment="Bottom">
+					<font fontName="DejaVu Sans Mono"/>
+				</textElement>
+				<text><![CDATA[Начальник участка]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="100" y="30" width="220" height="20" uuid="83838b73-f0fc-412d-a915-378b47de449b"/>
+				<box>
+					<bottomPen lineWidth="1.0"/>
+				</box>
+				<textElement verticalAlignment="Bottom">
+					<font fontName="DejaVu Sans Mono"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{lastName} +" " + $F{initials}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="10" y="30" width="80" height="20" uuid="db84d8ca-5d4d-4d0d-99ec-3d75bc433d30"/>
+				<textElement verticalAlignment="Bottom">
+					<font fontName="DejaVu Sans Mono"/>
+				</textElement>
+				<text><![CDATA[(ст. прораб)]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="10" y="90" width="160" height="20" uuid="7d18ee42-9e33-4b5d-9cf9-4deda93423d7"/>
+				<textElement verticalAlignment="Bottom">
+					<font fontName="DejaVu Sans Mono"/>
+				</textElement>
+				<text><![CDATA[Начальник производственно -]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="90" y="110" width="230" height="20" uuid="447c3fbc-df2a-4f3c-8987-b5f389f44f45"/>
+				<box>
+					<bottomPen lineWidth="1.0"/>
+				</box>
+				<textElement verticalAlignment="Bottom">
+					<font fontName="DejaVu Sans Mono"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{lastName_1} +" " + $F{initials_1}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="10" y="110" width="80" height="20" uuid="be0e664d-66cc-483e-8266-f39b291b03aa"/>
+				<textElement verticalAlignment="Bottom">
+					<font fontName="DejaVu Sans Mono"/>
+				</textElement>
+				<text><![CDATA[технического отдела]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="90" y="130" width="230" height="20" uuid="f13b6365-586c-4a95-85fb-5c7a38845362"/>
+				<textElement textAlignment="Center" verticalAlignment="Top">
+					<font fontName="DejaVu Sans Mono" size="8"/>
+				</textElement>
+				<text><![CDATA[(фамилия, инициалы, подпись)]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="90" y="50" width="229" height="20" uuid="94981f60-ef22-4617-bd53-7a60ac15d9f7"/>
+				<textElement textAlignment="Center" verticalAlignment="Top">
+					<font fontName="DejaVu Sans" size="8"/>
+				</textElement>
+				<text><![CDATA[(фамилия, инициалы, подпись)]]></text>
+			</staticText>
+		</band>
+	</columnFooter>
+	<pageFooter>
+		<band height="50">
+			<textField>
+				<reportElement x="2" y="10" width="100" height="30" uuid="300457c2-b3a3-4552-a009-5b007350cfde">
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+				</reportElement>
+				<textFieldExpression><![CDATA[$V{PAGE_NUMBER}]]></textFieldExpression>
+			</textField>
+		</band>
+	</pageFooter>
+</jasperReport>

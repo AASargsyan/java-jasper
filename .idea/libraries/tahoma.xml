@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="tahoma">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/Documents/tahoma.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+    <jarDirectory url="jar://$USER_HOME$/Documents/tahoma.jar!/" recursive="false" />
+  </library>
+</component>
